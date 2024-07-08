@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+.fondo {
+    background-image: url('semana13/imag/tumblr.webp');
+    background-size: 10%;
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 50px;
+    border-radius: 22px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.principal2 {
+    display: block;
+    margin: 0 auto;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 22px;
+    background-size: cover;
+    box-shadow: 0 0 20px 2px white;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+body {
+    background-image: url(semana13/imag/ear.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    height: 800px;
+}
+
+.fondo:hover {
+    color: brown;
+    outline: 3px solid blue;
+}
+
+.principal2:hover {
+    color: coral;
+
+}
+
+li {
+    color: white;
+}
+li a{
+    color: aquamarine;
+    text-decoration: none;
+}
+ol {
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 15px;
+}
+ol li{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 20px;
+    width: 470px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+h3 a{
+    color: aquamarine;
+}
+ul{
+    list-style: none;
+}

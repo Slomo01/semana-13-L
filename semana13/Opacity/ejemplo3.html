@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity3</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            position: relative;
+           background: url(/semana13/imagenes/mr.nadie.jpg) center/cover;
+           
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /*FONDO SEMITRANSPARENTE*/
+            display: flex;
+            align-items: center;
+        }
+
+        .text {
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            opacity: 0.8;
+            /*opacidad al 80%*/
+        }
+        .Boton{
+            margin: 25px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="text">Texto sobre imagen con Opacidad</div>
+
+        </div>
+
+    </div>
+    <button class="Boton"><a href="../../index.html">INDICE</a></button>
+
+</body>
+
+</html>
